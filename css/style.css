@@ -30,8 +30,9 @@ h1 {
 }
 
 
-    /* second section  */
-#second-section [class*="col-"] {
+    /* second-third section  */
+#second-section [class*="col-"] ,
+#offset [class*="col-"] {
     min-height: 40px;
 }
 
