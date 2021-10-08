@@ -16,3 +16,7 @@ h1 {
     padding:10px;
     border: 1px solid white;
 }
+
+.col-xs-6 .row .green {
+    background-color: rgba(0,226,101,255);
+}
