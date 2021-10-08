@@ -1,0 +1,39 @@
+/* general rules  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+[class*="col-"] {
+   background-color: rgba(0,108,250,255);
+   border: 1px solid white;
+}
+
+    /* first section  */
+#first-section [class*="col-"] {
+    padding:10px;
+    text-align: center;
+    color: white;
+}
+
+.col-xs-6 .row .green {
+    background-color: rgba(0,226,101,255);
+}
+
+
+    /* second-third section  */
+#second-section [class*="col-"] ,
+#offset [class*="col-"] {
+    min-height: 40px;
+}
+
+
