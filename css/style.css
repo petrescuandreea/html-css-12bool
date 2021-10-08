@@ -4,3 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+h1 {
+    font-size: 20px;
+}
+
+[class*="col-"] {
+    text-align: center;
+    color: white;
+    background-color: rgba(0,108,250,255);
+    padding:10px;
+    border: 1px solid white;
+}
